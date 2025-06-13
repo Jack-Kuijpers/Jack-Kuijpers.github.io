@@ -1,11 +1,131 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
+    <style>
+    h1{font-family: "Open Sans";}
+    p{font-family: "Open Sans";}
+     .navbar-brand{padding-left: 2%;}  
+     .navbar-nav{position: absolute; right: 2%;} 
+    .firstSection{color: aliceblue; background-image: url('bikeshop-small.jpg'); padding-top: 300px; padding-bottom: 300px; background-repeat: no-repeat; background-size: cover;}
+    h1.header {text-align: center;  font-size: 150px;background-color: #023047; margin-left: 15%; margin-right: 15%; }
+    p.underheader{text-align: center; font-size: 30px; background-color: #023047; margin-left: 30%; margin-right: 30%;}
+    #welcomePage{padding-top: 15%; padding-bottom: 15%;}
+    h1.welHeader{font-size: 75px;}
+    p.welP{font-size: 20px;}
+    .btn.btn-primary.btn-lg{ padding:15%;background-color:  #023047; font-size: 30px; margin-top: 20%;}
+    #reviews{padding-top: 10%; padding-bottom: 10%; background-color: #8ecae6;}
+    .card-header{background-color: #e9c46a;}
+    </style>
 </head>
 <body>
-    <h1>Coming Soon!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">FB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
+        </div>
+    </nav>
+    <div class="firstSection">
+        <div class="container">
+            <div class="title">
+                <h1 class="header">Fire Bikes</h1> 
+                <p class="underheader">The Best Ottawa Bike Shop</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container" id="welcomePage">
+        <div class="row justify-content-between mt-lg">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="welHeader">Welcome!</h1>
+                <p class="welP"> Fire Bikes, the best bike shop in Ottawa, is a family owned and run business. 
+                    Our doors have been open for operation for more than 30 year, always priding ourselves on  
+                    great custumer service. We offer bike repairs by appointment with several qualified mechanics. 
+                    And don't forget to check out our collection of premimum bikes, custom painted by local Ottawa artists. 
+                    
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <a href="shopping.html">
+                <button type="button" class="btn btn-primary btn-lg">Purchase our Bicycles</button>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-12">  
+                <a href="shopping.html">            
+                <button type="button" class="btn btn-primary btn-lg" >Book an Appointment</button>
+                </a> 
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="reviews">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>5 Stars</h2>
+                    </div>
+                    <div class="card-body">
+                        <figure>
+                        <blockquote class="blockquote">
+                            <p>Got a same day appointment, quick, kind service. Would recommend it! </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Katty from Kanata, Ottawa, ON 
+                        </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>5 Stars</h2>
+                    </div>
+                    <div class="card-body">
+                        <figure>
+                        <blockquote class="blockquote">
+                            <p>Bought my son his bike here and it's held up great over the years. Not to mention he loves the flame detail on the side. </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Mohammed, Glebe, Ottawa, ON 
+                        </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>4 Stars</h2>
+                    </div>
+                    <div class="card-body">
+                        <figure>
+                        <blockquote class="blockquote">
+                            <p>Needed a new chain for my bike. Staff was nice, a bit pricey though.  </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Sable, Sandy Hill, Ottawa, ON 
+                        </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
