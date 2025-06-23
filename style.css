@@ -1,0 +1,33 @@
+
+#gameContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}   
+.planet1{
+    width: 200px;
+    color: red;
+    background-color: blue;
+    opacity: 0.5;
+}
+.planet2{
+    width: 200px;
+    color: red;
+    background-color: blue;
+    opacity: 0.5;
+}
+.planet3{
+    width: 200px;
+    color: red;
+    background-color: blue;
+    opacity: 0.5;
+}
+.planet4{
+    width: 200px;
+    color: red;
+    background-color: blue;
+    opacity: 0.5;
+}
+
