@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <nav class="navbar sticky-top navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img class="navbar-brand logo" src="tv-bg.png" alt="logo">
+    <a class="navbar-brand" href="shop.html">Fire Sale</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="shop.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="Cart.html">Cart</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <div class="flex-container">
+        <div class="filter">
+            <input type="checkbox" id="Deal" name="Deal" onclick="filtered()">
+            <label for="Deal"> Deals</label><br> 
+            <p>Choose price range:</p>
+            <input type="radio" id="all" name="price" onclick="filtered()">
+            <label for="all">All Prices</label><br>
+            <input type="radio" id="under500" name="price" onclick="filtered()">
+            <label for="under500">0-500</label><br>
+            <input type="radio" id="between500and750" name="price" onclick="filtered()">
+            <label for="between500and750">500-750</label><br>  
+            <input type="radio" id="between750and1000" name="price" onclick="filtered()">
+            <label for="between750and1000">750-1000</label><br>
+            <input type="radio" id="between1000and1500" name="price" onclick="filtered()">
+            <label for="between1000and1500">1000-1500</label><br>
+            <input type="radio" id="above1500" name="price" onclick="filtered()">
+            <label for="above1500">1500+</label><br>
+
+            <p>Choose Resolution:</p>
+            <input type="checkbox" id="fourK" onclick="filtered()">
+            <label for="fourk"> 4k</label><br>
+            <input type="checkbox" id="OLED" name="OLED" onclick="filtered()">
+            <label for="OLED"> OLED</label><br>
+             
+            <p>Choose Brand:</p>
+            <input type="checkbox" id="Sony" name="Sony" onclick="filtered()">
+            <label for="Sony"> Sony</label><br>
+            <input type="checkbox" id="LG" name="LG" onclick="filtered()">
+            <label for="LG"> LG</label><br>
+            <input type="checkbox" id="TCL" name="TCL" onclick="filtered()">
+            <label for="TCL"> TCL</label><br>
+            <input type="checkbox" id="Hisense" name="Hisense" onclick="filtered()">
+            <label for="Hisense"> Hisense</label><br>
+            <input type="checkbox" id="Vizio" name="Vizio" onclick="filtered()">
+            <label for="Vizio"> Vizio</label><br>
+            <input type="checkbox" id="Samsung" name="Samsung" onclick="filtered()">
+            <label for="Samsung"> Samsung</label><br>
+            <input type="checkbox" id="Philips" name="Philips" onclick="filtered()">
+            <label for="Philips"> Philips</label><br>
+            
+            
+            
+            
+        </div>
+        <div class="iteams" id="list">
+            
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="shop.js"></script>
+</body>
+</html>

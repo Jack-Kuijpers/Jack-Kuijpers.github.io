@@ -1,0 +1,51 @@
+
+.container-fluid{
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+.row{
+    margin-top: 20vh;
+}
+
+.col-lg-5{
+    margin-bottom: 10vh;
+    font-size: 150%;
+
+  
+}
+.col-lg-5:hover{
+    font-weight: 1000;
+    cursor: pointer;
+
+}
+.cat{
+    font-size: 50px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 1%;
+    text-shadow: 2px 2px black;
+    color: rgba(214, 29, 106, 0.978);
+    
+}
+h2{
+    font-size: 40px;
+    
+}
+h3{
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    color: rgba(214, 29, 106, 0.978);
+    
+}
+body{
+    background-image: url("wallpaper.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-color: aquamarine;
+    
+}
