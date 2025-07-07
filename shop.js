@@ -174,7 +174,7 @@ function updateList(){
         subDiv1.appendChild(size);
         const cart = document.createElement('button')
         
-        if(localStorage.getItem("name").includes(currentFilter[i].name)){
+        if(localStorage.length>0 && localStorage.getItem("name").includes(currentFilter[i].name)){
           cart.append('Remove from cart');
         }else{
           cart.append('Add to cart');
